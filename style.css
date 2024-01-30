@@ -1,0 +1,50 @@
+.painel {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background: red;
+}
+#sim {
+  height: 40px;
+  width: 60px;
+  background-color: red;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  margin-left: -50px;
+  cursor: pointer;
+}
+#nao {
+  position: absolute;
+  height: 40px;
+  width: 60px;
+  background-color: red;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  margin-left: 10px;
+}
+h2 {
+  text-align: center;
+}
+.lasco {
+   margin-top: auto;
+   margin-left: auto;
+   margin-right: auto;
+}
+.voltar {
+  height: 40px;
+  width: 60px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.center {
+  margin: auto;
+}

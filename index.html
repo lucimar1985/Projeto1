@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Dia Dos Namorados</title>
+</head>
+<body>
+    <div class="painel">
+        <h1>Feliz Dia Dos Namorados</h1>
+        <img src="./assets/ursinho-fofo-apaixonado.gif" alt="ursinho-fofo-apaixonado">
+
+        <h2>Aceitar Namorar Comigo?</h2>
+        <a href="./videoamor.html"><button id="sim">Sim!</button></a>
+    <button onmouseover="fuja()" id="nao">Não</button>
+        
+</div>    
+<!--Esse e um script aleatorio feito com javascript adcionado ao html-->
+<script>
+    function fuja() {
+        var botaoNao = document.getElementById("nao")
+        var larguraJanela = window.innerWidth;
+        var alturaJanela = window.innerHeight;
+
+        var maxX = larguraJanela - botaoNao.offsetWidth;
+        var maxY = alturaJanela - botaoNao.offsetHeight;
+
+        var aleatorioX = Math.floor(Math.random() * maxX);
+        var aleatorioY = Math.floor(Math.random() * maxY);
+        botaoNao.style.left = aleatorioX + "px";
+        botaoNao.style.top = aleatorioY + "px";
+    }
+
+</script>
+
+
+</body>
+</html>
